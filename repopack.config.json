@@ -1,0 +1,16 @@
+{
+    "output": {
+      "filePath": "repopack-output.txt",
+      "style": "xml",
+      "removeComments": true,
+      "topFilesLength": 5,
+      "showLineNumbers": false,
+      "headerText": "Adherence to coding best practices and industry standards, like clean code. Add informative logs. Use proper error handling. Use proper naming conventions."
+    },
+    "include": ["**/*"],
+    "ignore": {
+      "useGitignore": true,
+      "useDefaultPatterns": true,
+      "customPatterns": ["repopack.config.json"]
+    }
+  }
